@@ -3,10 +3,6 @@ import MainPage from './components/BasicComponents/MainPage';
 import Intro from './components/BasicComponents/Intro'
 import ResultToIntro from './components/SubComponents/ResultToIntro'
 import ScrollToTop from './components/SubComponents/ScrollToTop'
-import LoginPage from './components/BasicComponents/Users/LoginPage';
-import RegisterPage from './components/BasicComponents/Users/RegisterPage';
-import MyPage from './components/BasicComponents/Users/MyPage';
-import Auth from './hoc/auth';
 import TESTS from './api/TESTS'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Result from './components/BasicComponents/Result';
@@ -210,10 +206,6 @@ class App extends Component {
                 key={item[1]+'_'+item[0]} exact/>
             ))}
 
-            {/* go to User related pages */}
-            <Route exact path="/Login" component={Auth(LoginPage, false)} />
-            <Route exact path="/Register" component={Auth(RegisterPage, false)} />
-            <Route exact path="/MyPage/:userId" component={Auth(MyPage, true)} />
           </Switch>
         </ScrollToTop>
       </Router>
