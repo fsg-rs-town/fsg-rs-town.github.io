@@ -27,25 +27,23 @@ class horizontalScrolling extends Component {
       TEST.forEach((el,index) => {
         if(el.info.lang === "JP") {
           if(el.info.horizontalBanner) {
-            let item = {name: 'item'+index, banner: el.info.horizontalBanner, link: "https://ktestone.com/fsg-rs-town.github.io/" + el.info.mainUrl + "/"}
+            let item = {name: 'item'+index, banner: el.info.horizontalBanner, link: "https://fsg-rs-town.github.io/" + el.info.mainUrl + "/"}
             _list.push(item)
           }
         }
       })
     } else if (current_url.includes("Eng") || current_url.includes("Ind") || current_url.includes("Rus") || current_url.includes("Arb") || current_url.includes("ES") || current_url.includes("CN")) {
       TEST.forEach((el, index) => {
-        if(el.info.lang === "Eng"){
-          if(el.info.horizontalBanner){
-            let item = {name: 'item'+index, banner: el.info.horizontalBanner, link: "https://ktestone.com/fsg-rs-town.github.io/" + el.info.mainUrl + "/"}
-            _list.push(item)
-          }
+        if(el.info.horizontalBanner){
+          let item = {name: 'item'+index, banner: el.info.horizontalBanner, link: "https://fsg-rs-town.github.io/" + el.info.mainUrl + "/"}
+          _list.push(item)
         }
       })
     } else {
       TEST.forEach((el, index) => {
         if(el.info.lang === "Kor"){
           if(el.info.horizontalBanner){
-            let item = {name: 'item'+index, banner: el.info.horizontalBanner, link: "https://ktestone.com/fsg-rs-town.github.io/" + el.info.mainUrl + "/"}
+            let item = {name: 'item'+index, banner: el.info.horizontalBanner, link: "https://fsg-rs-town.github.io/" + el.info.mainUrl + "/"}
             _list.push(item)
           }
         }
@@ -96,9 +94,6 @@ class horizontalScrolling extends Component {
         action: action,
         label: label
       });
-  }
-  _onPPLBannerClick(){
-    this._eventSenderGA("Outlinking", "Click NewTest-Banner Button", "result page");
   }
   // // All items component
   // // Important! add unique key

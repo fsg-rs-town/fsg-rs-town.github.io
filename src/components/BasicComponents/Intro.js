@@ -6,7 +6,6 @@ import BirthdayCalc from '../TestTypes/BirthdayCalc'
 import Constellation from '../TestTypes/Constellation'
 import DualMbti from '../TestTypes/DualMbti'
 import StoryTelling from '../TestTypes/StoryTelling'
-import OtherLangIcons from '../SubComponents/OtherLangIcons';
 import TESTS from '../../api/TESTS'
 import { BrowserRouter as Router, Redirect, Route, withRouter } from 'react-router-dom';
 import Typist from 'react-typist';
@@ -118,40 +117,15 @@ class Intro extends Component {
         alert("링크가 복사됐어요!");
     }
     cpcBannerIntroFooterScriptor(){
-        let ppl_list = ['personalIncense', 'personalTaro']
-        if((this.state.quiz_url.includes("localhost") ||  this.state.quiz_url.includes("ktestone.com")) && (!ppl_list.includes(this.state.current_test.info.mainUrl))) {
-          return(
-            <Fragment>
-              <ins className="kakao_ad_area" style={{display:"none"}}
-                data-ad-unit    = "DAN-zutyUS1LJQDp2SK0"
-                data-ad-width   = "320"
-                data-ad-height  = "100"></ins>
-                <ScriptTag type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></ScriptTag>
-            </Fragment>
-          )
-        } else if(this.state.quiz_url.includes("https://fsg-rs-town.github.io/")) {
-          return(
-            <Fragment>
-              <ins className="kakao_ad_area" style={{display:"none"}}
-                data-ad-unit    = "DAN-zIzDEpvl7LL78fMU"
-                data-ad-width   = "320"
-                data-ad-height  = "100"></ins>
-                <ScriptTag type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></ScriptTag>
-            </Fragment>
-          )
-        } else if(this.state.quiz_url.includes("niair.xyz")) {
-            return(
-              <Fragment>
-                {/* 인트로 공유 위 수평 */}
-                <ins className="adsbygoogle"
-                    style={{display:"block"}}
-                    data-ad-client="ca-pub-2382342018701919"
-                    data-ad-slot="3153221262"
-                    data-ad-format="auto"
-                    data-full-width-responsive="true"></ins>
-              </Fragment>
-            )
-          }
+        return <Fragment>
+            {/* 인트로 공유 위 수평 */}
+            <ins className="adsbygoogle"
+                style={{display:"block"}}
+                data-ad-client="ca-pub-2382342018701919"
+                data-ad-slot="3153221262"
+                data-ad-format="auto"
+                data-full-width-responsive="true"></ins>
+        </Fragment>
     }
 
     introPageRender(){
@@ -194,8 +168,6 @@ class Intro extends Component {
                         onClick={this._onStartButtonClick}
                         src={_thumbImage}
                         alt={_mainTitle + '|' + _subTitle}/>
-
-                    <OtherLangIcons currentTest={this.state.current_test.info.mainUrl}/>
 
                     <Typist className="start-btn-participants">
                         현재까지 총 {this.state.participants}명이 참여했어요.

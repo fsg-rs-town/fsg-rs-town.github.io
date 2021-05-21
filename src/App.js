@@ -6,7 +6,6 @@ import ScrollToTop from './components/SubComponents/ScrollToTop'
 import TESTS from './api/TESTS'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Result from './components/BasicComponents/Result';
-import ScriptTag from 'react-script-tag'
 import { Helmet } from 'react-helmet';
 import ReactGA from 'react-ga';
 import axios from 'axios';
@@ -75,71 +74,22 @@ class App extends Component {
   }
 
   cpcBannerUpperScriptor(){
-    if((this.state.sharable_url.includes("ktestone.com") || this.state.sharable_url.includes("localhost")) && !window.location.href.split('/').some(que => this.state.ppl_list.includes(que))) { // for blocking Adfit banner with page refreshing for PPL
-      return(
-        <Fragment>
-          <ins className="kakao_ad_area" style={{display:"none"}}
-          data-ad-unit    = "DAN-q3lQrzFnTNGEBQSA"
-          data-ad-width   = "320"
-          data-ad-height  = "100"></ins>
-          <ScriptTag type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></ScriptTag>
-        </Fragment>
-      )
-    } else if(this.state.sharable_url.includes("https://fsg-rs-town.github.io/")) {
-      return(
-        <Fragment>
-          <ins className="kakao_ad_area" style={{display:"none"}}
-          data-ad-unit    = "DAN-2heOjnHUdZLjBuFC"
-          data-ad-width   = "320"
-          data-ad-height  = "100"></ins>
-          <ScriptTag type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></ScriptTag>
-        </Fragment>
-      )
-    } else if(this.state.sharable_url.includes("niair.xyz")) {
-      return(
-        <Fragment>
-          <Helmet>
-            <script data-ad-client="ca-pub-2382342018701919" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-          </Helmet>
-        </Fragment>
-      )
-    }
+    return <Fragment>
+      <Helmet>
+        <script data-ad-client="ca-pub-2382342018701919" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      </Helmet>
+    </Fragment>
   }
 
   cpcBannerFooterScriptor(){
-    if((this.state.sharable_url.includes("localhost") || this.state.sharable_url.includes("ktestone.com")) && !window.location.href.split('/').some(que => this.state.ppl_list.includes(que))) { // for blocking Adfit banner with page refreshing for PPL
-      return(
-        <Fragment>
-          <ins className="kakao_ad_area" style={{display:"none"}}
-          data-ad-unit    = "DAN-M3XcjSrV4BrUGCJG"
-          data-ad-width   = "300"
-          data-ad-height  = "250"></ins>
-          <ScriptTag type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></ScriptTag>
-        </Fragment>
-      )
-    } else if(this.state.sharable_url.includes("https://fsg-rs-town.github.io/")) {
-      return(
-        <Fragment>
-          <ins className="kakao_ad_area" style={{display:"none"}}
-          data-ad-unit    = "DAN-rgfAOJhp6Faz2JFX"
-          data-ad-width   = "300"
-          data-ad-height  = "250"></ins>
-          <ScriptTag type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></ScriptTag>
-        </Fragment>
-      )
-    } else if(this.state.sharable_url.includes("niair.xyz")) {
-      return(
-        <Fragment>
-          {/* 반응형 기본 */}
+    return <Fragment>
           <ins className="adsbygoogle"
              style={{display:"block"}}
              data-ad-client="ca-pub-2382342018701919"
              data-ad-slot="8429103833"
              data-ad-format="auto"
              data-full-width-responsive="true"></ins>
-        </Fragment>
-      )
-    }
+    </Fragment>
   }
 
   render() {
@@ -161,27 +111,11 @@ class App extends Component {
             <Route path='/' exact>
                 <Helmet>
                   {/* <!-- Primary Meta Tags --> */}
-                  <title>취향 분석 테스트 - 케이테스트</title>
-                  <meta name="title" content="케이테스트 - 퍼스널 컬러 테스트"/>
-                  <meta name="description" content="진짜 내 모습을 찾아가는 심리 분석 테스트 : 퍼스널 컬러 테스트,퍼스널컬러테스트 , 퍼스널컬러 궁합 테스트, 강아지로보는나테스트 , 심리테스트, 케이테스트, 색깔테스트, 퍼스널컬러" data-react-helmet="true"/>
+                  <title>Личностные тесты</title>
+                  <meta name="title" content="Личностные тесты"/>
+                  <meta name="description" content="Личностные тесты" data-react-helmet="true"/>
                   <link rel="main-url" href={window.location.href}/>
-
-                  {/* <!-- Open Graph / Facebook --> */}
-                  <meta property="og:type" content="website"/>
-                  <meta property="og:url" content="https://ktestone.com/"/>
-                  <meta property="og:title" content="케이테스트 - 퍼스널 컬러 테스트"/>
-                  <meta property="og:description" content="진짜 내 모습을 찾아가는 심리 분석 테스트 : 퍼스널 컬러 테스트,퍼스널컬러테스트 , 퍼스널컬러 궁합 테스트, 강아지로보는나테스트 , 심리테스트, 케이테스트, 색깔테스트, 퍼스널컬러"/>
-                  <meta property="og:image" content="https://images.ktestone.com/default/main-header.png"/>
-                  <meta property="og:image:alt" content="진짜 내 모습을 찾아가는 심리 분석 테스트 : 퍼스널 컬러 테스트" />
-
-                  {/* <!-- Twitter --> */}
-                  <meta property="twitter:card" content="summary_large_image"/>
-                  <meta property="twitter:url" content="https://ktestone.com/"/>
-                  <meta property="twitter:title" content="케이테스트 - 퍼스널 컬러 테스트"/>
-                  <meta property="twitter:description" content="진짜 내 모습을 찾아가는 심리 분석 테스트 : 퍼스널 컬러 테스트,퍼스널컬러테스트 , 퍼스널컬러 궁합 테스트, 강아지로보는나테스트 , 심리테스트, 케이테스트, 색깔테스트, 퍼스널컬러"/>
-                  <meta property="twitter:image" content="https://images.ktestone.com/default/main-header.png"/>
-                  <meta property="twitter:image:alt" content="진짜 내 모습을 찾아가는 심리 분석 테스트 : 퍼스널 컬러 테스트" />
-                </Helmet>
+                  </Helmet>
                 <MainPage/>
             </Route>
 
@@ -215,10 +149,8 @@ class App extends Component {
 
       {/* footer */}
       <div className="intro-footer">
-          <h5>광고 및 후원 문의<br></br>Advertising and Sponsorship Contact</h5>
-          <p>soumy21@naver.com</p>
-          <p>Disclaimer:<br></br>All content is provided for fun and entertainment purposes only</p>
-          <p>©주식회사 위드썸컴퍼니 All Rights Reserved. 2021.</p>
+          <p>Содержание сайта содержит развлекательный характер.</p>
+          <p>© 2021</p>
       </div>
     </Fragment>
     </Router>
