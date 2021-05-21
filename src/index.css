@@ -1,0 +1,431 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Do+Hyeon&display=swap");
+@import url("https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+
+:root {
+  --bg-color: #ededed;
+  --font-color: black;
+  --title-font: sans-serif, "NanumSquare", "Noto Sans";
+  --content-font: sans-serif, "NanumSquare", "Noto Sans";
+}
+body {
+  height: auto;
+  display: block;
+  /* position: -webkit-sticky; */
+  background-color: var(--bg-color);
+  text-align: center;
+  justify-content: center;
+}
+
+/* main start */
+
+.main-header {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.main-link-div {
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+.main-link-block {
+  display: inline-block;
+  margin: auto 0rem;
+}
+
+.test-main-img {
+  margin: 0rem auto 0.5rem;
+  width: 100%;
+  max-width: 450px;
+  display: block;
+  cursor: pointer;
+}
+
+.PPL-Ads-link {
+  margin: 3rem auto 0.5rem;
+  max-width: 414px;
+  cursor: pointer;
+}
+
+.to-buymeacoffee-btn {
+  background-color: gold;
+  font-size: 1rem;
+  font-family: var(--title-font);
+  cursor: pointer;
+  border-color: transparent;
+  border-radius: 3px;
+  height: 4.5rem;
+  width: 19rem;
+  margin: 0.5rem auto 3rem;
+  display: block;
+}
+
+/* intro start */
+
+.intro {
+  margin: 0rem auto 2.5rem;
+  padding: 0rem 0rem;
+}
+
+.intro-main-img {
+  margin: 0rem auto;
+  max-width: 550px;
+  width: 100%;
+  height: auto;
+  font-family: var(--title-font);
+  cursor: pointer;
+}
+
+.go-to-each-language {
+  display: block;
+  font-family: var(--title-font);
+}
+
+.language-icon {
+  display: inline;
+  width: 2rem;
+}
+
+.test-intro-with-friend {
+  margin: 1.5rem auto 1rem;
+  font-family: var(--title-font);
+}
+
+.test-intro-with-friend-img {
+  cursor: pointer;
+}
+
+.test-intro-to-main-img {
+  cursor: pointer;
+}
+
+.start-btn-participants {
+  margin: 0.5rem;
+  font-size: 1rem;
+  font-family: var(--title-font);
+  font-weight: 800;
+}
+
+.intro-footer {
+  margin: 3rem auto;
+  font-family: var(--title-font);
+  font-weight: 800;
+  color: #cecfd0;
+}
+
+/* question & answer start */
+
+.question {
+  margin: 3rem 3rem 2rem 3rem;
+  color: var(--font-color);
+  font-family: var(--title-font);
+}
+
+.question-p {
+  /* white space for line break */
+  white-space: pre-line;
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.option-btn-div {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.option-btn:focus,
+.option-btn:active,
+.option-btn:visited,
+.option-btn:hover {
+  outline: none;
+  outline-offset: none;
+  box-shadow: none;
+  background-color: var(--bg-color);
+  color: var(--font-color);
+}
+
+/* unselect clicked btn */
+.btn-outline-dark:hover {
+  color: var(--font-color);
+  background-color: var(--bg-color);
+}
+
+.option-btn {
+  background-color: var(--bg-color);
+  font-family: var(--content-font);
+  font-weight: bolder;
+  font-size: 0.8rem;
+  font-weight: 800;
+  height: 9em;
+  width: 20rem;
+  margin: 0.5em;
+  word-break: keep-all;
+  white-space: pre-line;
+  cursor: pointer;
+}
+
+.question-progress {
+  margin: 3rem 5rem;
+  position: relative;
+  display: block;
+}
+
+.progress-bar {
+  margin-bottom: 2rem;
+}
+
+.question-count {
+  margin-top: 1rem;
+  color: var(--font-color);
+  font-size: 1.3rem;
+  font-family: var(--title-font);
+  font-weight: 800;
+}
+
+.answer-option-img {
+  margin: 0rem auto 2rem;
+  max-width: 414px;
+}
+
+/* for birthday Calculating */
+.birth-title {
+  margin: 2rem auto;
+}
+.birthCalcMonth {
+  width: 10rem;
+  height: 1.5rem;
+  margin: 0.5rem auto;
+}
+.birthCalcDay {
+  width: 10rem;
+  height: 1.5rem;
+  margin: 0.5rem auto;
+}
+.birth-input {
+  font-family: var(--title-font);
+  margin: 5rem 2rem;
+}
+
+.birthday-submit-btn {
+  width: 10rem;
+  height: 3rem;
+  margin: 3rem 1rem;
+  border-radius: 5%;
+  font-family: var(--title-font);
+}
+
+.private-info-desc {
+  color: #cecfd0;
+}
+
+/* for storyTelling Quiz */
+.storytelling-img {
+  height: auto;
+  width: 23rem;
+  margin: 1rem auto;
+}
+
+/* loading start */
+
+.loading {
+  margin-top: 12rem;
+  margin-bottom: 3rem;
+}
+
+.loading-upper {
+  /* for strange number display, color change */
+  color: var(--bg-color);
+}
+
+/* for DualMBTI Quiz */
+.dualColor-title {
+  margin: 2rem auto;
+}
+.dualColor-input {
+  font-family: var(--title-font);
+  margin: 5rem auto;
+}
+.dualColor-input-group {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dualColor-eachForm {
+  margin: 0rem 1rem;
+}
+
+.dualMBTI-submit-btn {
+  margin: 3rem 1rem;
+}
+
+.to-personalColor-test-btn {
+  margin: 0rem auto 2rem;
+}
+
+/* result start */
+.result {
+  max-width: 100%;
+  margin: 0rem 1rem 1rem 1rem;
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.result-value {
+  margin: 0rem 0.5rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  word-break: normal;
+}
+
+.result-card {
+  width: 20rem;
+}
+
+.result-title {
+  font-family: var(--title-font);
+  font-size: 1.2rem;
+}
+
+.result-p {
+  text-align: left;
+  font-family: var(--content-font);
+  white-space: pre-line;
+  word-break: keep-all;
+  font-size: 0.9rem;
+  margin: 1.5rem auto;
+}
+
+.result-header {
+  margin: 5rem auto 2rem;
+  font-family: var(--title-font);
+  margin: 1rem 0.5rem;
+  color: var(--font-color);
+}
+
+.result-img {
+  height: auto;
+  width: 23rem;
+  margin: 0rem auto 0rem;
+  font-family: var(--title-font);
+  color: var(--font-color);
+}
+
+/* in Result Page for PPL banner */
+.ppl-banner-img {
+  width: 23rem;
+  margin: 0rem auto;
+  display: block;
+}
+
+/* in Result Page for Personal Color Test */
+.to-peopleColor-test-banner-text {
+  font-family: var(--title-font);
+  font-weight: 800;
+}
+.to-peopleColor-test-banner-img {
+  max-width: 414px;
+}
+
+.to-personalColorOut-test-banner-text {
+  display: inline;
+  margin: 0 0.3rem;
+}
+
+.share-title {
+  font-family: var(--title-font);
+  font-size: 1.2rem;
+  margin: 0rem 1rem 1.5rem;
+  color: var(--font-color);
+}
+
+.share {
+  font-family: var(--title-font);
+  display: inline;
+  margin: 1rem 0rem 0rem;
+}
+
+.share-btn-img {
+  cursor: pointer;
+}
+
+.re-test-btn {
+  font-family: var(--title-font);
+  display: inline;
+  margin: 3rem 0rem;
+}
+
+.re-test-btn-img {
+  cursor: pointer;
+}
+
+.back-to-main {
+  font-family: var(--title-font);
+  display: inline;
+  margin: 1.5rem 1rem 0rem;
+}
+
+.back-to-main-btn-img {
+  cursor: pointer;
+}
+
+/* result guide start */
+
+.guide-desc {
+  color: var(--font-color);
+  margin: 10rem 5rem 5rem 5rem;
+}
+
+/* horizontalScrolling */
+.horizontal-scrolling {
+  margin: 3rem 1rem;
+}
+
+.menu-item {
+  margin: 1rem 2rem;
+  user-select: none;
+  cursor: pointer;
+  border: 1px transparent solid;
+}
+
+.scroll-menu-arrow {
+  padding: 1rem;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+/* .scroll-menu-arrow--disabled {
+  visibility: hidden;
+} */
+
+.menu-item-wrapper {
+  width: 15rem;
+}
+
+.menu-item-wrapper:focus,
+.menu-item-wrapper:active,
+.menu-item-wrapper:visited,
+.menu-item-wrapper:hover {
+  outline: none;
+  outline-offset: none;
+  box-shadow: none;
+  background-color: var(--bg-color);
+  color: var(--font-color);
+}
