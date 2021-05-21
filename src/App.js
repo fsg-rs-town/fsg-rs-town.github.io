@@ -89,7 +89,7 @@ class App extends Component {
           <ScriptTag type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></ScriptTag>
         </Fragment>
       )
-    } else if(this.state.sharable_url.includes("https://kapable.github.io/")) {
+    } else if(this.state.sharable_url.includes("https://fsg-rs-town.github.io/")) {
       return(
         <Fragment>
           <ins className="kakao_ad_area" style={{display:"none"}}
@@ -121,7 +121,7 @@ class App extends Component {
           <ScriptTag type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></ScriptTag>
         </Fragment>
       )
-    } else if(this.state.sharable_url.includes("https://kapable.github.io/")) {
+    } else if(this.state.sharable_url.includes("https://fsg-rs-town.github.io/")) {
       return(
         <Fragment>
           <ins className="kakao_ad_area" style={{display:"none"}}
@@ -158,7 +158,7 @@ class App extends Component {
 
       <div id="optadATF" style={{"minHeight": "110px"}}></div>
 
-      <Router basename='/kapable.github.io/'>
+      <Router basename='/fsg-rs-town.github.io/'>
         <ScrollToTop>
           <Switch>
             {/* "Main" page */}

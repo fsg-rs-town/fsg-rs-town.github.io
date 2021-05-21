@@ -10,13 +10,13 @@ export default function OtherLangIcons(props) {
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorFactEng/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorFactEng/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/usa-icon.png' className='language-icon' alt="[ Go to the English version ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorFactInd/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorFactInd/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/india-icon.png' className='language-icon' alt="[ हिंदी में भी देखें ]" /></a>
                 </div>
@@ -28,13 +28,13 @@ export default function OtherLangIcons(props) {
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorFact/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorFact/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/usa-icon.png' className='language-icon' alt="[ 한국어 버전으로 하러가기 ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorFactInd/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorFactInd/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/india-icon.png' className='language-icon' alt="[ हिंदी में भी देखें ]" /></a>
                 </div>
@@ -46,13 +46,13 @@ export default function OtherLangIcons(props) {
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorFactEng/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorFactEng/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/usa-icon.png' className='language-icon' alt="[ Go to the English version ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorFact/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorFact/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/kor-icon.png' className='language-icon' alt="[ 한국어 버전으로 하러가기 ]" /></a>
                 </div>
@@ -67,13 +67,13 @@ export default function OtherLangIcons(props) {
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/dringkingHabitEng/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/dringkingHabitEng/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/usa-icon.png' className='language-icon' alt="[ Go to the English version ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/dringkingHabitJP/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/dringkingHabitJP/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/japan-icon.png' className='language-icon' alt="[ 日本語バージョンをやりに行く。 ]" /></a>
                 </div>
@@ -85,13 +85,13 @@ export default function OtherLangIcons(props) {
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/dringkingHabit/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/dringkingHabit/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/kor-icon.png' className='language-icon' alt="[ 한국어 버전으로 하러가기 ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/dringkingHabitJP/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/dringkingHabitJP/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/japan-icon.png' className='language-icon' alt="[ 日本語バージョンをやりに行く。 ]" /></a>
                 </div>
@@ -103,13 +103,13 @@ export default function OtherLangIcons(props) {
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/dringkingHabit/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/dringkingHabit/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/kor-icon.png' className='language-icon' alt="[ 한국어 버전으로 하러가기 ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/dringkingHabitEng/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/dringkingHabitEng/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/usa-icon.png' className='language-icon' alt="[ Go to the English version ]" /></a>
                 </div>
@@ -125,49 +125,49 @@ export default function OtherLangIcons(props) {
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorEng/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorEng/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/usa-icon.png' className='language-icon' alt="[ Go to the English version ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorJP/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorJP/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/japan-icon.png' className='language-icon' alt="[ 日本語バージョンをやりに行く。 ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorCN/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorCN/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/china-icon.png' className='language-icon' alt="[ 汉语版本试 ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorES/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorES/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/spain-icon.png' className='language-icon' alt="[ paso a la versión española ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorArb/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorArb/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/arab-icon.png' className='language-icon' alt="[ اذهب إلى النسخة العربية ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorInd/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorInd/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/india-icon.png' className='language-icon' alt="[ हिंदी में भी देखें ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorRus/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorRus/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/russia-icon.png' className='language-icon' alt="[ Перейти на российскую версию ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorMalay/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorMalay/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/malaysia-icon.png' className='language-icon' alt="[ Pergi ke versi Bahasa Inggeris ]" /></a>
                 </div>
@@ -179,49 +179,49 @@ export default function OtherLangIcons(props) {
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColor/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColor/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/kor-icon.png' className='language-icon' alt="[ 한국어 버전으로 하러가기 ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorEng/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorEng/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/usa-icon.png' className='language-icon' alt="[ Go to the English version ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorCN/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorCN/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/china-icon.png' className='language-icon' alt="[ 汉语版本试 ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorES/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorES/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/spain-icon.png' className='language-icon' alt="[ paso a la versión española ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorArb/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorArb/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/arab-icon.png' className='language-icon' alt="[ اذهب إلى النسخة العربية ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorInd/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorInd/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/india-icon.png' className='language-icon' alt="[ हिंदी में भी देखें ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorRus/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorRus/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/russia-icon.png' className='language-icon' alt="[ Перейти на российскую версию ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorMalay/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorMalay/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/malaysia-icon.png' className='language-icon' alt="[ Pergi ke versi Bahasa Inggeris ]" /></a>
                 </div>
@@ -233,49 +233,49 @@ export default function OtherLangIcons(props) {
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColor/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColor/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/kor-icon.png' className='language-icon' alt="[ 한국어 버전으로 하러가기 ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorJP/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorJP/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/japan-icon.png' className='language-icon' alt="[ 日本語バージョンをやりに行く。 ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorCN/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorCN/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/china-icon.png' className='language-icon' alt="[ 汉语版本试 ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorES/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorES/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/spain-icon.png' className='language-icon' alt="[ paso a la versión española ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorArb/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorArb/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/arab-icon.png' className='language-icon' alt="[ اذهب إلى النسخة العربية ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorInd/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorInd/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/india-icon.png' className='language-icon' alt="[ हिंदी में भी देखें ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorRus/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorRus/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/russia-icon.png' className='language-icon' alt="[ Перейти на российскую версию ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorMalay/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorMalay/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/malaysia-icon.png' className='language-icon' alt="[ Pergi ke versi Bahasa Inggeris ]" /></a>
                 </div>
@@ -287,49 +287,49 @@ export default function OtherLangIcons(props) {
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColor/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColor/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/kor-icon.png' className='language-icon' alt="[ 한국어 버전으로 하러가기 ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorJP/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorJP/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/japan-icon.png' className='language-icon' alt="[ 日本語バージョンをやりに行く。 ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorEng/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorEng/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/usa-icon.png' className='language-icon' alt="[ Go to the English version ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorES/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorES/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/spain-icon.png' className='language-icon' alt="[ paso a la versión española ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorArb/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorArb/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/arab-icon.png' className='language-icon' alt="[ اذهب إلى النسخة العربية ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorInd/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorInd/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/india-icon.png' className='language-icon' alt="[ हिंदी में भी देखें ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorRus/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorRus/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/russia-icon.png' className='language-icon' alt="[ Перейти на российскую версию ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorMalay/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorMalay/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/malaysia-icon.png' className='language-icon' alt="[ Pergi ke versi Bahasa Inggeris ]" /></a>
                 </div>
@@ -341,49 +341,49 @@ export default function OtherLangIcons(props) {
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColor/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColor/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/kor-icon.png' className='language-icon' alt="[ 한국어 버전으로 하러가기 ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorJP/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorJP/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/japan-icon.png' className='language-icon' alt="[ 日本語バージョンをやりに行く。 ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorEng/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorEng/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/usa-icon.png' className='language-icon' alt="[ Go to the English version ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorCN/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorCN/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/china-icon.png' className='language-icon' alt="[ 汉语版本试 ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorArb/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorArb/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/arab-icon.png' className='language-icon' alt="[ اذهب إلى النسخة العربية ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorInd/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorInd/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/india-icon.png' className='language-icon' alt="[ हिंदी में भी देखें ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorRus/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorRus/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/russia-icon.png' className='language-icon' alt="[ Перейти на российскую версию ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorMalay/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorMalay/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/malaysia-icon.png' className='language-icon' alt="[ Pergi ke versi Bahasa Inggeris ]" /></a>
                 </div>
@@ -395,49 +395,49 @@ export default function OtherLangIcons(props) {
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColor/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColor/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/kor-icon.png' className='language-icon' alt="[ 한국어 버전으로 하러가기 ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorJP/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorJP/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/japan-icon.png' className='language-icon' alt="[ 日本語バージョンをやりに行く。 ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorEng/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorEng/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/usa-icon.png' className='language-icon' alt="[ Go to the English version ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorCN/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorCN/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/china-icon.png' className='language-icon' alt="[ 汉语版本试 ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorES/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorES/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/spain-icon.png' className='language-icon' alt="[ paso a la versión española ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorInd/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorInd/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/india-icon.png' className='language-icon' alt="[ हिंदी में भी देखें ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorRus/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorRus/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/russia-icon.png' className='language-icon' alt="[ Перейти на российскую версию ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorMalay/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorMalay/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/malaysia-icon.png' className='language-icon' alt="[ Pergi ke versi Bahasa Inggeris ]" /></a>
                 </div>
@@ -449,55 +449,55 @@ export default function OtherLangIcons(props) {
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColor/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColor/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/kor-icon.png' className='language-icon' alt="[ 한국어 버전으로 하러가기 ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorJP/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorJP/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/japan-icon.png' className='language-icon' alt="[ 日本語バージョンをやりに行く。 ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorEng/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorEng/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/usa-icon.png' className='language-icon' alt="[ Go to the English version ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorCN/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorCN/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/china-icon.png' className='language-icon' alt="[ 汉语版本试 ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorES/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorES/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/spain-icon.png' className='language-icon' alt="[ paso a la versión española ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorArb/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorArb/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/arab-icon.png' className='language-icon' alt="[ اذهب إلى النسخة العربية ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorInd/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorInd/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/india-icon.png' className='language-icon' alt="[ हिंदी में भी देखें ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorRus/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorRus/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/russia-icon.png' className='language-icon' alt="[ Перейти на российскую версию ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorMalay/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorMalay/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/malaysia-icon.png' className='language-icon' alt="[ Pergi ke versi Bahasa Inggeris ]" /></a>
                 </div>
@@ -509,49 +509,49 @@ export default function OtherLangIcons(props) {
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColor/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColor/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/kor-icon.png' className='language-icon' alt="[ 한국어 버전으로 하러가기 ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorJP/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorJP/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/japan-icon.png' className='language-icon' alt="[ 日本語バージョンをやりに行く。 ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorEng/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorEng/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/usa-icon.png' className='language-icon' alt="[ Go to the English version ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorCN/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorCN/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/china-icon.png' className='language-icon' alt="[ 汉语版本试 ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorES/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorES/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/spain-icon.png' className='language-icon' alt="[ paso a la versión española ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorArb/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorArb/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/arab-icon.png' className='language-icon' alt="[ اذهب إلى النسخة العربية ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorInd/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorInd/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/india-icon.png' className='language-icon' alt="[ हिंदी में भी देखें ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorMalay/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorMalay/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/malaysia-icon.png' className='language-icon' alt="[ Pergi ke versi Bahasa Inggeris ]" /></a>
                 </div>
@@ -563,49 +563,49 @@ export default function OtherLangIcons(props) {
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColor/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColor/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/kor-icon.png' className='language-icon' alt="[ 한국어 버전으로 하러가기 ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorJP/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorJP/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/japan-icon.png' className='language-icon' alt="[ 日本語バージョンをやりに行く。 ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorEng/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorEng/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/usa-icon.png' className='language-icon' alt="[ Go to the English version ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorCN/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorCN/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/china-icon.png' className='language-icon' alt="[ 汉语版本试 ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorES/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorES/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/spain-icon.png' className='language-icon' alt="[ paso a la versión española ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorArb/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorArb/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/arab-icon.png' className='language-icon' alt="[ اذهب إلى النسخة العربية ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorInd/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorInd/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/india-icon.png' className='language-icon' alt="[ हिंदी में भी देखें ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalColorRus/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalColorRus/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/russia-icon.png' className='language-icon' alt="[ Перейти на российскую версию ]" /></a>
                 </div>
@@ -621,13 +621,13 @@ export default function OtherLangIcons(props) {
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalIncenseEng/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalIncenseEng/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/usa-icon.png' className='language-icon' alt="[ Go to the English version ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalIncenseJP/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalIncenseJP/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/japan-icon.png' className='language-icon' alt="[ 日本語バージョンをやりに行く。 ]" /></a>
                 </div>
@@ -639,13 +639,13 @@ export default function OtherLangIcons(props) {
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalIncense/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalIncense/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/kor-icon.png' className='language-icon' alt="[ 한국어 버전으로 하러가기 ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalIncenseEng/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalIncenseEng/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/usa-icon.png' className='language-icon' alt="[ Go to the English version ]" /></a>
                 </div>
@@ -657,13 +657,13 @@ export default function OtherLangIcons(props) {
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalIncense/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalIncense/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/kor-icon.png' className='language-icon' alt="[ 한국어 버전으로 하러가기 ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/personalIncenseJP/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/personalIncenseJP/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/japan-icon.png' className='language-icon' alt="[ 日本語バージョンをやりに行く。 ]" /></a>
                 </div>
@@ -679,13 +679,13 @@ export default function OtherLangIcons(props) {
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/hanbokBTIEng/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/hanbokBTIEng/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/usa-icon.png' className='language-icon' alt="[ Go to English version ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/hanbokBTIJP/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/hanbokBTIJP/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/japan-icon.png' className='language-icon' alt="[ 日本語バージョンをやりに行く。 ]" /></a>
                 </div>
@@ -697,13 +697,13 @@ export default function OtherLangIcons(props) {
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/hanbokBTI/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/hanbokBTI/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/kor-icon.png' className='language-icon' alt="[ 한국어 버전으로 하러가기 ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/hanbokBTIEng/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/hanbokBTIEng/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/usa-icon.png' className='language-icon' alt="[ Go to English version ]" /></a>
                 </div>
@@ -715,13 +715,13 @@ export default function OtherLangIcons(props) {
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/hanbokBTI/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/hanbokBTI/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/kor-icon.png' className='language-icon' alt="[ 한국어 버전으로 하러가기 ]" /></a>
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://ktestone.com/kapable.github.io/hanbokBTIJP/"
+                        href="https://ktestone.com/fsg-rs-town.github.io/hanbokBTIJP/"
                         className="to-personalColorOut-test-banner-text"
                     ><img src='https://images.ktestone.com/default/languageIcon/japan-icon.png' className='language-icon' alt="[ 日本語バージョンをやりに行く。 ]" /></a>
                 </div>

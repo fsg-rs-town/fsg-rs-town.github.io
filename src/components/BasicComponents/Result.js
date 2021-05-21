@@ -83,7 +83,7 @@ class Result extends Component {
               <ScriptTag type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></ScriptTag>
             </Fragment>
           )
-        } else if(this.state.sharable_url.includes("https://kapable.github.io/")) {
+        } else if(this.state.sharable_url.includes("https://fsg-rs-town.github.io/")) {
           return(
             <Fragment>
               <ins className="kakao_ad_area" style={{display:"none"}}
@@ -121,7 +121,7 @@ class Result extends Component {
         let personalColorListGB = ["personalColorEng", "personalColorCN", "personalColorES", "personalColorArb"]
         if(this.state.current_test === "personalColor") {
             let banner_img_src = "https://images.ktestone.com/main-thumbnail/persoanlColorFactNew-thumb.png"
-            let new_test_link = "https://ktestone.com/kapable.github.io/personalColorFact/"
+            let new_test_link = "https://ktestone.com/fsg-rs-town.github.io/personalColorFact/"
             return(
                 <Fragment>
                     <a
@@ -134,7 +134,7 @@ class Result extends Component {
             )
         } else if(this.state.current_test === "personalColorJP") {
             let banner_img_src = "https://images.ktestone.com/main-thumbnail/personalColorFactEngNew-thumb.png"
-            let new_test_link = "https://ktestone.com/kapable.github.io/personalColorFactEng/"
+            let new_test_link = "https://ktestone.com/fsg-rs-town.github.io/personalColorFactEng/"
             return(
                 <Fragment>
                     <a
@@ -147,7 +147,7 @@ class Result extends Component {
             )
         } else if(this.state.current_test === "personalColorInd") {
             let banner_img_src = "https://images.ktestone.com/main-thumbnail/personalColorFactIndNew-thumb.png"
-            let new_test_link = "https://ktestone.com/kapable.github.io/personalColorFactInd/"
+            let new_test_link = "https://ktestone.com/fsg-rs-town.github.io/personalColorFactInd/"
             return(
                 <Fragment>
                     <a
@@ -160,7 +160,7 @@ class Result extends Component {
             )
         } else if(personalColorListGB.includes(this.state.current_test)) {
             let banner_img_src = "https://images.ktestone.com/main-thumbnail/personalColorFactEngNew-thumb.png"
-            let new_test_link = "https://ktestone.com/kapable.github.io/personalColorFactEng/"
+            let new_test_link = "https://ktestone.com/fsg-rs-town.github.io/personalColorFactEng/"
             return(
                 <Fragment>
                     <a
@@ -281,7 +281,7 @@ class Result extends Component {
 
         const current_tests_path = '/' + this.state.current_test + '/';
         return(
-            <Router basename='/kapable.github.io/'>
+            <Router basename='/fsg-rs-town.github.io/'>
                 <Switch>
                     <Route path={current_tests_path} component={()=><Intro test={this.state.current_test}/>} exact/>
                     <Redirect to={current_tests_path} />

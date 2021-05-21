@@ -27,7 +27,7 @@ class horizontalScrolling extends Component {
       TEST.forEach((el,index) => {
         if(el.info.lang === "JP") {
           if(el.info.horizontalBanner) {
-            let item = {name: 'item'+index, banner: el.info.horizontalBanner, link: "https://ktestone.com/kapable.github.io/" + el.info.mainUrl + "/"}
+            let item = {name: 'item'+index, banner: el.info.horizontalBanner, link: "https://ktestone.com/fsg-rs-town.github.io/" + el.info.mainUrl + "/"}
             _list.push(item)
           }
         }
@@ -36,7 +36,7 @@ class horizontalScrolling extends Component {
       TEST.forEach((el, index) => {
         if(el.info.lang === "Eng"){
           if(el.info.horizontalBanner){
-            let item = {name: 'item'+index, banner: el.info.horizontalBanner, link: "https://ktestone.com/kapable.github.io/" + el.info.mainUrl + "/"}
+            let item = {name: 'item'+index, banner: el.info.horizontalBanner, link: "https://ktestone.com/fsg-rs-town.github.io/" + el.info.mainUrl + "/"}
             _list.push(item)
           }
         }
@@ -45,7 +45,7 @@ class horizontalScrolling extends Component {
       TEST.forEach((el, index) => {
         if(el.info.lang === "Kor"){
           if(el.info.horizontalBanner){
-            let item = {name: 'item'+index, banner: el.info.horizontalBanner, link: "https://ktestone.com/kapable.github.io/" + el.info.mainUrl + "/"}
+            let item = {name: 'item'+index, banner: el.info.horizontalBanner, link: "https://ktestone.com/fsg-rs-town.github.io/" + el.info.mainUrl + "/"}
             _list.push(item)
           }
         }

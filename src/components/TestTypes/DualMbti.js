@@ -17,7 +17,7 @@ class DualMbti extends Component {
     }
 
     personalColorTestRedirector(){
-        window.open('https://ktestone.com/kapable.github.io/personalColor/')
+        window.open('https://ktestone.com/fsg-rs-town.github.io/personalColor/')
     }
     renderColorOptions(who){
         let _colors = Object.keys(this.state.personal_colors)

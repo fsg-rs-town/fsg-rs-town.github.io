@@ -16,7 +16,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 app.use(cookieParser());
 
-// var whitelist = ['http://localhost:3000', 'https://ktestone.com', 'https://kapable.github.io', 'https://niair.xyz']
+// var whitelist = ['http://localhost:3000', 'https://ktestone.com', 'https://fsg-rs-town.github.io', 'https://niair.xyz']
 // var corsOptions = {
 //     origin: function (origin, callback) {
 //       if (whitelist.indexOf(origin) !== -1) {
