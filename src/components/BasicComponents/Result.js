@@ -5,7 +5,6 @@ import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-d
 import App from '../../App'
 import { Card } from 'react-bootstrap';
 import { CopyToClipboard } from 'react-copy-to-clipboard'
-import HorizontalScrolling from '../SubComponents/horizontalScrolling'
 import COPYBTN from '../../api/DefaultImg/result-copy-link-btn.png';
 import AGAINBTN from '../../api/DefaultImg/result-to-again-btn.png';
 import TOHOMEBTN from '../../api/DefaultImg/result-to-home-btn.png';
@@ -38,7 +37,6 @@ class Result extends Component {
         this._onBackToStartButtonClick = this._onBackToStartButtonClick.bind(this)
         this._onShareButtonClick = this._onShareButtonClick.bind(this);
         this._onPPLBannerClick = this._onPPLBannerClick.bind(this);
-        this.horizontalNewTestRenderer = this.horizontalNewTestRenderer.bind(this)
     }
     
     _onBackToStartButtonClick(){
@@ -66,16 +64,7 @@ class Result extends Component {
              data-ad-format="fluid"
              data-ad-layout-key="-fb+5w+4e-db+86"></ins>
         </Fragment>
-    }
-    horizontalNewTestRenderer(){
-        // Delete NewTestMenu for PPL contents
-        let ppl_list = ['personalTaro']
-        if(!ppl_list.includes(this.state.current_test)) {
-            return(
-                <HorizontalScrolling test={this.state.current_test}/>
-            )   
-        }
-    }
+    } 
 
     newTestLinkRenderer(){
         let personalColorListGB = ["personalColorEng", "personalColorCN", "personalColorES", "personalColorArb"]
@@ -138,7 +127,7 @@ class Result extends Component {
 
         const current_tests_path = '/' + this.state.current_test + '/';
         return(
-            <Router basename='/fsg-rs-town.github.io/'>
+            <Router basename='/'>
                 <Switch>
                     <Route path={current_tests_path} component={()=><Intro test={this.state.current_test}/>} exact/>
                     <Redirect to={current_tests_path} />
@@ -335,26 +324,6 @@ class Result extends Component {
                         </div>
                     </div>
 
-                    <div className="share">
-                        <h5 className="share-title">친구에게 공유하기</h5>
-                        <div className="share">
-                            <CopyToClipboard text={this.state.sharable_url+'/'}>
-                                <img
-                                    src={COPYBTN}
-                                    onClick={this._onShareButtonClick}
-                                    className="share-btn-img"
-                                    alt="링크 복사"
-                                    />
-                            </CopyToClipboard>
-                        </div>
-                        <div className="re-test-btn">
-                            <img
-                                src={AGAINBTN}
-                                className="re-test-btn-img"
-                                onClick={this._onBackToStartButtonClick}
-                                alt="테스트 다시하기"/>
-                        </div>
-                    </div>
                     <div className="back-to-main">
                         <img
                             src={TOHOMEBTN}
@@ -369,8 +338,6 @@ class Result extends Component {
                             />
                     </div>
                 </div>
-                {/* New Test banners */}
-                {this.horizontalNewTestRenderer()}
 
                 {/* CPC Banner Result footer */}
                 {this.cpcBannerResultFooterScriptor()}

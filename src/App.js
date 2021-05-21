@@ -85,7 +85,7 @@ class App extends Component {
 
       <div id="optadATF" style={{"minHeight": "110px"}}></div>
 
-      <Router basename='/fsg-rs-town.github.io/'>
+      <Router basename='/'>
         <ScrollToTop>
           <Switch>
             {/* "Main" page */}
@@ -130,7 +130,7 @@ class App extends Component {
 
       {/* footer */}
       <div className="intro-footer">
-          <p>Содержание сайта содержит развлекательный характер.</p>
+          <p>Сайт содержит развлекательный характер.</p>
           <p>© 2021</p>
       </div>
     </Fragment>

@@ -66,7 +66,6 @@ class Intro extends Component {
         this._onStartButtonClick = this._onStartButtonClick.bind(this);
         this._onMainButtonClick = this._onMainButtonClick.bind(this);
         this._onShareButtonClick = this._onShareButtonClick.bind(this);
-        this._eventSenderGA = this._eventSenderGA.bind(this);
     }
     reloadPage() {
         // for blocking Adfit banner with page refreshing for PPL
@@ -84,7 +83,6 @@ class Intro extends Component {
     }
 
     _onStartButtonClick(){
-        this._eventSenderGA("Paging", "Click Start-test Button", "intro page");
         this.setState({
             mode:'quiz'
         })
@@ -94,19 +92,16 @@ class Intro extends Component {
         this.setState({
             mode:'main'
         })
-        this._eventSenderGA("Paging", "Click Back-to-main Button", "intro page");
     }
 
     _onShareButtonClick(){
         this.setState({
             num_shares_count:this.state.num_shares_count+1
         })
-        this._eventSenderGA("Sharing", "Click Copy-link Button", "intro page");
         alert("링크가 복사됐어요!");
     }
     cpcBannerIntroFooterScriptor(){
         return <Fragment>
-            {/* 인트로 공유 위 수평 */}
           <ins className="adsbygoogle"
              style={{display:"block"}}
              data-ad-client="ca-pub-7217026491537741"
@@ -164,15 +159,6 @@ class Intro extends Component {
                     {/* CPC Banner Intro footer */}
                     {this.cpcBannerIntroFooterScriptor()}
 
-                    <div className="test-intro-with-friend">
-                        <CopyToClipboard text={this.state.quiz_url+'/'}>
-                            <img
-                                src={COPYBTN}
-                                className="test-intro-with-friend-img"
-                                onClick={this._onShareButtonClick}
-                                alt="테스트 링크 복사"/>
-                        </CopyToClipboard>
-                    </div>
                     <div className="test-intro-to-main">
                         <img
                             className="test-intro-to-main-img"
@@ -379,7 +365,7 @@ class Intro extends Component {
         let final_score_query = result_contents.query // <----------------query export
 
         return(
-            <Router basename={'/fsg-rs-town.github.io/'+ this.state.current_test.info.mainUrl}>
+            <Router basename={'/'+ this.state.current_test.info.mainUrl}>
                 <Route path={this.state.result_url+final_score_query + '/'} component={Result}/>
                 <Redirect to={this.state.result_url+final_score_query + '/'} />
             </Router>

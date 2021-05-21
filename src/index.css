@@ -92,15 +92,6 @@ body {
   width: 2rem;
 }
 
-.test-intro-with-friend {
-  margin: 1.5rem auto 1rem;
-  font-family: var(--title-font);
-}
-
-.test-intro-with-friend-img {
-  cursor: pointer;
-}
-
 .test-intro-to-main-img {
   cursor: pointer;
 }
@@ -391,11 +382,6 @@ body {
 .guide-desc {
   color: var(--font-color);
   margin: 10rem 5rem 5rem 5rem;
-}
-
-/* horizontalScrolling */
-.horizontal-scrolling {
-  margin: 3rem 1rem;
 }
 
 .menu-item {
