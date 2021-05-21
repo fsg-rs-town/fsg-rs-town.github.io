@@ -16,21 +16,18 @@ const defaultOptions = {
 
 class Loading extends Component {
   componentDidMount(){
-    // if condition for Adsense domain
-    if(window.location.href.includes("niair.xyz")){
-        if(window) (window.adsbygoogle = window.adsbygoogle || []).push({});
-    }
+    if(window) (window.adsbygoogle = window.adsbygoogle || []).push({});
   }
 
   render(){
     return <Fragment>
       {/* 로딩 중앙 */}
-      <ins className="adsbygoogle"
-          style={{display:"block"}}
-          data-ad-client="ca-pub-2382342018701919"
-          data-ad-slot="4650135764"
-          data-ad-format="auto"
-          data-full-width-responsive="true"></ins>
+          <ins className="adsbygoogle"
+             style={{display:"block"}}
+             data-ad-client="ca-pub-7217026491537741"
+             data-ad-slot="3635972349"
+             data-ad-format="fluid"
+             data-ad-layout-key="-fb+5w+4e-db+86"></ins>
       <div className="loading" >
           <Lottie options={defaultOptions} height={120} width={120}/>
       </div>

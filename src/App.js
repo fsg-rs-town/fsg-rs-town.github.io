@@ -7,8 +7,6 @@ import TESTS from './api/TESTS'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Result from './components/BasicComponents/Result';
 import { Helmet } from 'react-helmet';
-import ReactGA from 'react-ga';
-import axios from 'axios';
 
 
 class App extends Component {
@@ -48,22 +46,7 @@ class App extends Component {
     }
   }
   componentDidMount(){
-    axios.get('/api/hello')
-    .then(response => console.log(response.data))
-
-    ReactGA.initialize('UA-186793588-1', {
-      debug: false,
-      gaOptions:{
-        siteSpeedSampleRate: 100
-      }
-    });
-    ReactGA.set({page:window.location.pathname+window.location.search})
-    ReactGA.pageview(window.location.pathname+window.location.search);
-
-    // if condition for Adsense domain
-    if(this.state.sharable_url.includes("niair.xyz")){
-      if(window) (window.adsbygoogle = window.adsbygoogle || []).push({});
-    }
+    if(window) (window.adsbygoogle = window.adsbygoogle || []).push({});
   }
   reloadPage() {
     var currentDocumentTimestamp = new Date(performance.timing.domLoading).getTime();
@@ -75,9 +58,7 @@ class App extends Component {
 
   cpcBannerUpperScriptor(){
     return <Fragment>
-      <Helmet>
-        <script data-ad-client="ca-pub-2382342018701919" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-      </Helmet>
+      <script data-ad-client="ca-pub-7217026491537741" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     </Fragment>
   }
 
@@ -85,10 +66,10 @@ class App extends Component {
     return <Fragment>
           <ins className="adsbygoogle"
              style={{display:"block"}}
-             data-ad-client="ca-pub-2382342018701919"
-             data-ad-slot="8429103833"
-             data-ad-format="auto"
-             data-full-width-responsive="true"></ins>
+             data-ad-client="ca-pub-7217026491537741"
+             data-ad-slot="3635972349"
+             data-ad-format="fluid"
+             data-ad-layout-key="-fb+5w+4e-db+86"></ins>
     </Fragment>
   }
 

@@ -22,9 +22,5 @@ mongoose.connect(config.mongoURI, {
   .catch(err => console.log(err))
 
 app.get('/', (req, res) => res.send('Hello World!'))
- 
-app.get('/api/hello', (req, res) => {
-    res.send("hello everyone!")
-})
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))

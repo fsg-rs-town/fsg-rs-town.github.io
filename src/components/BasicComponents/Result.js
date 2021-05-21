@@ -9,9 +9,7 @@ import HorizontalScrolling from '../SubComponents/horizontalScrolling'
 import COPYBTN from '../../api/DefaultImg/result-copy-link-btn.png';
 import AGAINBTN from '../../api/DefaultImg/result-to-again-btn.png';
 import TOHOMEBTN from '../../api/DefaultImg/result-to-home-btn.png';
-import ReactGA from 'react-ga';
 import { Helmet } from 'react-helmet';
-import ScriptTag from 'react-script-tag'
 
 class Result extends Component {
     constructor(props){
@@ -38,21 +36,12 @@ class Result extends Component {
             num_shares_count:0,
         }
         this._onBackToStartButtonClick = this._onBackToStartButtonClick.bind(this)
-        this._eventSenderGA = this._eventSenderGA.bind(this);
         this._onShareButtonClick = this._onShareButtonClick.bind(this);
         this._onPPLBannerClick = this._onPPLBannerClick.bind(this);
         this.horizontalNewTestRenderer = this.horizontalNewTestRenderer.bind(this)
     }
     
-    _eventSenderGA(category, action, label){
-        ReactGA.event({
-            category: category,
-            action: action,
-            label: label
-          });
-    }
     _onBackToStartButtonClick(){
-        this._eventSenderGA("Paging", "Click Re-test Button", "result page");
         this.setState({
             mode:"intro"
         })
@@ -61,24 +50,21 @@ class Result extends Component {
         this.setState({
             num_shares_count:this.state.num_shares_count+1
         })
-        this._eventSenderGA("Sharing", "Click Copy-link Button", "result page");
         alert("링크가 복사됐어요!");
     }
 
     _onPPLBannerClick(){
-        this._eventSenderGA("Outlinking", "Click PPL-Banner Button", "result page");
     }
 
     cpcBannerResultFooterScriptor(){
-        // Delete Adfit for PPL contents
         return <Fragment>
             {/* 결과 푸터 */}
-            <ins className="adsbygoogle"
-                style={{display:"block"}}
-                data-ad-client="ca-pub-2382342018701919"
-                data-ad-slot="3364974256"
-                data-ad-format="auto"
-                data-full-width-responsive="true"></ins>
+          <ins className="adsbygoogle"
+             style={{display:"block"}}
+             data-ad-client="ca-pub-7217026491537741"
+             data-ad-slot="3635972349"
+             data-ad-format="fluid"
+             data-ad-layout-key="-fb+5w+4e-db+86"></ins>
         </Fragment>
     }
     horizontalNewTestRenderer(){
@@ -374,7 +360,6 @@ class Result extends Component {
                             src={TOHOMEBTN}
                             onClick={function(e) {
                                 e.preventDefault();
-                                this._eventSenderGA("Paging", "Click Back-to-main Button", "result page");
                                 this.setState({
                                     mode:"main"
                                 })

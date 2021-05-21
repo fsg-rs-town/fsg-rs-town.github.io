@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import ScrollMenu from 'react-horizontal-scrolling-menu';
 import TEST from '../../api/TESTS';
-import ReactGA from 'react-ga';
 
 // const Arrow = ({ text, className }) => {
 //   return (
@@ -87,13 +86,8 @@ class horizontalScrolling extends Component {
     this.Menu = this.Menu.bind(this)
     this.menuItems = this.Menu(this.state.list.slice(0, this.state.list.length), this.state.selected);
     
-  }
-  _eventSenderGA(category, action, label){
-    ReactGA.event({
-        category: category,
-        action: action,
-        label: label
-      });
+  } 
+  _onPPLBannerClick(){
   }
   // // All items component
   // // Important! add unique key
