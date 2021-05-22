@@ -92,9 +92,9 @@ class App extends Component {
             <Route path='/' exact>
                 <Helmet>
                   {/* <!-- Primary Meta Tags --> */}
-                  <title>Личностные тесты</title>
-                  <meta name="title" content="Личностные тесты"/>
-                  <meta name="description" content="Личностные тесты" data-react-helmet="true"/>
+                  <title>Тесты от FSG RS</title>
+                  <meta name="title" content="Тесты от FSG RS"/>
+                  <meta name="description" content="Тесты от FSG RS" data-react-helmet="true"/>
                   <link rel="main-url" href={window.location.href}/>
                   </Helmet>
                 <MainPage/>
@@ -130,7 +130,7 @@ class App extends Component {
 
       {/* footer */}
       <div className="intro-footer">
-          <p>Сайт содержит развлекательный характер.</p>
+          <p>Информациция носит развлекательный характер.</p>
           <p>© 2021</p>
       </div>
     </Fragment>
